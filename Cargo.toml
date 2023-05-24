@@ -1,0 +1,21 @@
+[package]
+name = "ficrypt"
+version = "1.0.0"
+authors = ["Gustavo Maciel"]
+license = "MIT"
+description = "A command-line tool for encrypting files"
+readme = "README.md"
+homepage = "https://github.com/gustavocmaciel/ficrypt"
+repository = "https://github.com/gustavocmaciel/ficrypt"
+edition = "2021"
+
+[dependencies]
+aes = "0.7.5"
+block-modes = "0.8.1"
+clap = { version = "4.3.0", features = ["derive"] }
+hex = "0.4.3"
+hex-literal="0.3.3"
+rand = "0.8.5"
+ring = "0.16.20"
+rpassword = "7.2"
+predicates = "3.0.3"
